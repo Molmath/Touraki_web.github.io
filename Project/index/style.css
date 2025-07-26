@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Chango&family=Noto+Sans+JP:wght@100..900&display=swap');
 
 body {
     margin: 0;
 }
 
+h1 {
+    margin: 110px 0px 230px;
+}
+
 #corp {
     background-image: url(../Assets/back-ground/TOURAKI_WEB.png);
+}
+
+.texte {
+    margin-left: 20px;
+    text-shadow: 6px 6px 4px rgba(47, 47, 47, 0.725);
+    font-size: 25px;
+    font-family: "Noto Sans JP", sans-serif;
+
 }
 
 .header {
@@ -23,7 +35,7 @@ body {
     color: white;
 
     height: 20vh;
-    background-color: black;
+    background-color: rgb(15, 0, 0);
 }
 
 #headerPlace {
@@ -44,23 +56,38 @@ header img {
 }
 
 #info {
-    
+
     display: flex;
     justify-content: space-between;
-    
+
     background-size: cover;
-  
+
     background-color: rgb(0, 0, 0);
     color: white;
 }
-.ilustationTexte
-{
-   position: absolute;
+
+.bubulTexte {
+    background-image: url(../Assets/deco/);
+    background-size: cover;
 }
+
+.ilustationTexte {
+
+    position: absolute;
+}
+
 #transition {
     background-size: cover;
     height: 30vh;
     background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+    font-family: "Chango", sans-serif;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
 
 #switcher {
@@ -75,6 +102,7 @@ nav {
 }
 
 .interactive {
+    cursor: pointer;
 
     font-size: 35px;
     color: white;
