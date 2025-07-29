@@ -25,7 +25,6 @@ sectionGame,sectionweeb,sectionSerious,sectionTool
 let actual = null;
 
 
-
 const image = [
   switchImage.src,
   "../Assets/demo/Capture_decran_2025-05-17_234707.png"
