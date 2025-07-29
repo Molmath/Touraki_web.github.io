@@ -57,13 +57,16 @@ header img {
 
 #info {
 
-    display: flex;
-    justify-content: space-between;
-
-    background-size: cover;
-
     background-color: rgb(0, 0, 0);
     color: white;
+}
+
+.cadre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-: ;
 }
 
 .bubulTexte {
